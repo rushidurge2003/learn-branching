@@ -7,7 +7,7 @@ const connection = mysql2.createConnection({
   database: "test",
 });
 
-connection.connect((err) => {``
+connection.connect((err) => {
   if (err) {
     console.error("Error connecting to the database:", err);
     return;
